@@ -23,7 +23,7 @@ while True:
    opcao = int(opcao)
     
    #validação caso o usuário não digite um número entre 1 e 6
-   if opcao < 1 and opcao > 6:
+   if opcao < 1 or opcao > 6:
     print("Digite um número entre 1 e 6! ")
     continue
 
@@ -68,3 +68,4 @@ while True:
       
 
       
+
